@@ -39,4 +39,8 @@ local.properties
 .cproject
 
 # PDT-specific
-.buildpath
+.buildpath
+.elasticbeanstalk/
+
+###Added by me for elastic beanstalk tutorial###
+composer.phar
