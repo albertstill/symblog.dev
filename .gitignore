@@ -1,18 +1,3 @@
-###SYMFONY###
-# Bootstrap
-app/bootstrap*
-
-# Symfony directories
-vendor
-*/logs/*
-*/cache/*
-web/uploads/*
-web/bundles/*
-
-# Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
-
 ###ECLIPSE###
 *.pydevproject
 .project
@@ -43,4 +28,8 @@ local.properties
 .elasticbeanstalk/
 
 ###Added by me for elastic beanstalk tutorial###
+app/bootstrap.php.cache
+app/cache/*
+app/logs/*
+vendor
 composer.phar
