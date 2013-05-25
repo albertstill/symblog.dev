@@ -43,4 +43,4 @@ local.properties
 .elasticbeanstalk/
 
 ###Added by me for elastic beanstalk tutorial###
-composer.phar
+composer.phar
