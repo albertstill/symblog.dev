@@ -1,14 +1,14 @@
 [global]
 ApplicationName=symblog.dev
 AwsCredentialFile=C:\Users\Albert\.elasticbeanstalk\aws_credential_file
-DevToolsEndpoint=git.elasticbeanstalk.eu-west-1.amazonaws.com
+DevToolsEndpoint=git.elasticbeanstalk.us-west-2.amazonaws.com
 EnvironmentName=symblogdev-env
 InstanceProfileName=aws-elasticbeanstalk-ec2-role
 OptionSettingFile=C:\wamp\www\symblog.dev\.elasticbeanstalk\optionsettings.symblogdev-env
-RdsDeletionPolicy=Snapshot
+RdsDeletionPolicy=Delete
 RdsEnabled=Yes
 RdsSourceSnapshotName=
-Region=eu-west-1
-ServiceEndpoint=https://elasticbeanstalk.eu-west-1.amazonaws.com
+Region=us-west-2
+ServiceEndpoint=https://elasticbeanstalk.us-west-2.amazonaws.com
 SolutionStack=64bit Amazon Linux running PHP 5.4
 

@@ -1,8 +1,8 @@
 parameters:
     database_driver:   pdo_mysql
-    database_host:     mysymbloginstance.czpsqqrwfrir.us-west-2.rds.amazonaws.com
+    database_host:     beanstalkinstance.czpsqqrwfrir.us-west-2.rds.amazonaws.com
     database_port:     3306
-    database_name:     symfony
+    database_name:     dbforsymblog
     database_user:     albertstill
     database_password: football123
 

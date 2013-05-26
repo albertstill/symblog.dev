@@ -43,7 +43,7 @@ Notification Endpoint=
 Notification Protocol=email
 
 [aws:rds:dbinstance]
-DBDeletionPolicy=Snapshot
+DBDeletionPolicy=Delete
 DBEngine=mysql
 DBInstanceClass=db.t1.micro
 DBSnapshotIdentifier=
