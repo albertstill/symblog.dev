@@ -1,6 +1,5 @@
 [global]
 ApplicationName=symblog.dev
-ApplicationVersionName=Sample Application
 AwsCredentialFile=C:\Users\Albert\.elasticbeanstalk\aws_credential_file
 DevToolsEndpoint=git.elasticbeanstalk.eu-west-1.amazonaws.com
 EnvironmentName=symblogdev-env

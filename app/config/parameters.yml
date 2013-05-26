@@ -1,10 +1,10 @@
 parameters:
-    database_driver:   ~
-    database_host:     ~
-    database_port:     ~
-    database_name:     ~
-    database_user:     ~
-    database_password: ~
+    database_driver:   pdo_mysql
+    database_host:     mysymbloginstance.czpsqqrwfrir.us-west-2.rds.amazonaws.com
+    database_port:     3306
+    database_name:     symfony
+    database_user:     albertstill
+    database_password: football123
 
     mailer_transport: gmail
     mailer_encryption: ssl
