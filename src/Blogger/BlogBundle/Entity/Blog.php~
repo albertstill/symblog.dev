@@ -59,6 +59,11 @@ class Blog
      * @ORM\Column(type="datetime")
      */
     protected $updated;
+    
+    /**
+     * @ORM\Column(type="string")
+     */
+    protected $slug;
 
     /**
      * Get id
