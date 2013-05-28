@@ -6,9 +6,9 @@
 	{% stylesheets
 	    '@BloggerBlogBundle/Resources/public/css/*'
 	    output='css/blogger.css'
-	    debug=false
+    	filter='?yui_css'
 	%}
-	    <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
+	    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
 	{% endstylesheets %}
 {% endblock %}
 
