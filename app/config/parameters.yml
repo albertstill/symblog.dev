@@ -1,10 +1,10 @@
 parameters:
-    database_driver:   pdo_mysql
-    database_host:     beanstalkinstance.czpsqqrwfrir.us-west-2.rds.amazonaws.com
-    database_port:     3306
-    database_name:     dbforsymblog
-    database_user:     albertstill
-    database_password: football123
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: symfony
+    database_user: root
+    database_password: null
 
     mailer_transport: gmail
     mailer_encryption: ssl
