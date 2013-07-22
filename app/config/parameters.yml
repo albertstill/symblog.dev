@@ -1,17 +1,18 @@
 parameters:
-    database_driver: pdo_mysql
-    database_host: 127.0.0.1
-    database_port: null
-    database_name: symfony
-    database_user: root
-    database_password: null
-
+    database_driver:   pdo_mysql
+    database_host:     grouppaydb.cmxcsy4q2sdj.us-east-1.rds.amazonaws.com
+    database_port:     3306
+    database_name:     symfony
+    database_user:     albertstill
+    database_password: football123
+    
     mailer_transport: gmail
     mailer_encryption: ssl
     mailer_auth_mode: login
     mailer_host: smtp.gmail.com
     mailer_user: astill@ulusnow.co.uk
     mailer_password: Football123
-
-    locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    
+    locale: en
+    secret: b6faa01caa703aec41612cf962f7633eb4f95792
+    database_path: null
